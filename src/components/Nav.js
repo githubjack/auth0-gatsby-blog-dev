@@ -1,5 +1,6 @@
 import React from 'react';
 import Auth from '../utils/auth';
+import Subscribe from './Subscribe';
 
 const auth = new Auth();
 
@@ -86,6 +87,8 @@ export default class Nav extends React.Component {
                     )
                   }
                 </a>
+                <span> | </span>
+                <Subscribe />
               </span>
             )
           }
